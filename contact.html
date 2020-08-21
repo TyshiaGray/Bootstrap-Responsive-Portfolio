@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    
     <header>
         <!-- nav bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,14 +44,53 @@
 
         <div class="container-fluid">
             <div class="row">
+                
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
+                   
                     <div class="jumbotron mt-5">
+                       
                         <h2>Contact</h2>
                         <hr>
-                        <img src="https://via.placeholder.com/250" alt="picture of myself" class="float-left mr-3">
-                        
+                        <!-- form from bootstrap -->
+                        <form>
+                            <!-- name box? -->
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp">
+                            </div>        
+                            <!-- email box -->
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                            </div>
+                            <!-- <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div> -->
+                            <div class="form-group form-check">
+                              <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                              <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+                            </div>
+
+                            <!-- message box -->
+                            <div class="message-group mb-3">
+                                <label for="inputMessage">Message</label>
+                                <input type="message" class="form-control" id="inputMessage" aria-describedby="messageHelp">
+
+                            </div>
+
+
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    <!-- div class row stretched gray box/not sure div is closed -->
+                        <div class="row"> 
+                        <!-- <img src="https://via.placeholder.com/250" alt="picture of myself" class="float-left mr-3"> -->
+                        <!--this div below closes gray box ?? -->
                     </div>
+                    
                 </div>
                 <div class="col-md-2"></div>
 
